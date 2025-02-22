@@ -44,7 +44,7 @@ const DemoSection = () => {
             {/* Placeholder for demo video/animation */}
             <div className="absolute inset-0 flex items-center justify-center">
               <img 
-                src="/api/placeholder/640/360" 
+                src="/images/4.jpggit " 
                 alt="Product Demo"
                 className="w-full h-full object-cover"
               />

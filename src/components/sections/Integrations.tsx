@@ -87,11 +87,7 @@ const IntegrationsSection = () => {
             {tools.map((tool, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all">
                 <div className="flex items-center justify-between mb-6">
-                  <img 
-                    src={`/api/placeholder/32/32`}
-                    alt={tool.name}
-                    className="w-8 h-8"
-                  />
+                  
                   <span className="text-sm text-blue-600 font-medium px-3 py-1 bg-blue-50 rounded-full">
                     {tool.category}
                   </span>
