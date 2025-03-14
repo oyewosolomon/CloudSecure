@@ -115,7 +115,7 @@ const Navbar: React.FC = () => {
   return (
     <nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'shado' : 'bg-transparent text-white'
+        isScrolled ? 'bg-white' : 'bg-transparent text-white'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -123,7 +123,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Shield className="h-8 w-8 text-blue-600" />
-            <span className={`ml-2 ${isScrolled ? 'text-gray-900 ':'text-white'} text-xl font-bold `}>CloudSecure</span>
+            <span className={`ml-2 ${isScrolled ? 'text-gray-800 ':'text-white'} text-xl font-bold `}>CloudSecure</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -135,7 +135,7 @@ const Navbar: React.FC = () => {
                 onMouseEnter={() => setActiveDropdown(key)}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center space-x-1 ${isScrolled ? 'text-gray-900 ':'text-white'} hover:text-gray-900">
+                <button className="flex items-center space-x-1 ${isScrolled ? 'text-gray-200 ':'text-white'} hover:text-gray-900">
                   <span>{title}</span>
                   <ChevronDown size={16} />
                 </button>

@@ -16,8 +16,6 @@ const Footer = () => {
       "Features",
       "Security",
       "Compliance",
-      "Integrations",
-      "API Documentation",
       "Pricing"
     ],
     company: [
