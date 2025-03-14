@@ -8,7 +8,8 @@ const SuccessStories = () => {
     {
       company: "Global Bank Corp",
       industry: "Financial Services",
-      logo: "/api/placeholder/64/64",
+      logo: "/images/t-2.svg",
+     
       quote: "CloudSecure helped us achieve compliance across 5000+ cloud resources while reducing security incidents by 85%.",
       stats: [
         { label: "Security Incidents", value: "-85%" },
@@ -18,13 +19,13 @@ const SuccessStories = () => {
       author: {
         name: "Sarah Chen",
         role: "Chief Information Security Officer",
-        image: "/api/placeholder/48/48"
+        image: "https://randomuser.me/api/portraits/women/88.jpg"
       }
     },
     {
       company: "HealthTech Solutions",
       industry: "Healthcare",
-      logo: "/api/placeholder/64/64",
+      logo: "/images/t-1.png",
       quote: "Automated compliance monitoring saved our team 20 hours per week while ensuring HIPAA compliance.",
       stats: [
         { label: "Time Saved", value: "20hrs/week" },
@@ -34,7 +35,7 @@ const SuccessStories = () => {
       author: {
         name: "Dr. James Wilson",
         role: "Head of IT Security",
-        image: "/api/placeholder/48/48"
+        image: "https://randomuser.me/api/portraits/men/79.jpg"
       }
     }
   ];

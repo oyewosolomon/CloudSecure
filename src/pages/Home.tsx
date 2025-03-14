@@ -64,7 +64,7 @@ export default function Home() {
       <IntegrationsSection/>
       <DemoSection/>
       <ComplianceSection/>
-      {/* <SuccessStories/> */}
+      <SuccessStories/>
      
       <Footer/>
     </main>
